@@ -148,6 +148,8 @@ section{
 
 .links a{
    color:blue; /* fancy red color for your links*/
+   text-decoration: underline;
+   
 }
 
 .heading1{
@@ -159,6 +161,14 @@ section{
 }
 
 
+.heading5{
+    font-size:small;
+    color:var(--primary-text-color);
+    text-align: justify;
+    padding:1rem;
+    margin-left: 2rem;
+    text-transform: uppercase;
+}
 
 
 .heading span{
@@ -320,10 +330,10 @@ section{
 }
 
 .heading4 {
-    font-size: 2rem;
+    font-size: medium;
     padding: 5rem 4rem;/* Added left and right padding */
     color: var(--primary-text-color);
-    text-align: left;
+    text-align: justify;
     text-transform: none;
 }
 
@@ -517,6 +527,7 @@ section{
     padding:.5rem 0;
 }
 
+
 .projects .box-container .box .content .title:hover{
     text-decoration: underline;
     color:var(--main-color);
@@ -623,7 +634,18 @@ section{
     padding:1rem 0;
     font-size: 2rem;
 }
+.contact .box-container .box h2 {
+    color:var(--primary-text-color);
+    padding:1rem 0;
+    font-size: medium;
 
+}
+.contact .box-container .box h1 {
+    color:var(--primary-text-color);
+    padding:1rem 0;
+    font-size: small;
+    text-decoration: underline;
+}
 .contact .box-container .box p{
     font-size: 1.5rem;
     color:var(--secondary-text-color);
@@ -635,11 +657,16 @@ section{
     font-size: 2rem;
     color:var(--primary-text-color);
     background: var(--primary-bg-color);
-    margin-top: 1rem;
+    margin-top: 4rem;
+}
+
+.footer h6 {
+    margin-top: 4rem;
 }
 
 .footer span{
     color:var(--main-color);
+
 }
 
 #theme-toggler{
